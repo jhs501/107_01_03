@@ -55,7 +55,7 @@ class App {
     }
 
     _setupModel() {
-        const geometry = new THREE.BoxGeometry(1, 1, 1);
+        const geometry = new THREE.BoxGeometry(2, 1, 1);
         const texture = new THREE.TextureLoader().load('./4.png');
         const material = new THREE.MeshPhongMaterial({ map: texture });
         const cube = new THREE.Mesh(geometry, material);
