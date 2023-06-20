@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="01-basic.css">
+        <title>VRAPOINT</title>
+    </head>
+    <body>
+        <div id="webgl-container"></div>
+        <div id="ui-container">
+            <label for="camera-distance">Camera Distance:</label>
+            <input type="range" id="camera-distance" min="1" max="10" value="5">
+            <button id="texture-button">Change Texture</button>
+            <label for="light-intensity">Light Intensity:</label>
+            <input type="range" id="light-intensity" min="1" max="20" value="3">
+        </div>
+        <script type="module" src="main.js" defer></script>
+    </body>
+</html>
